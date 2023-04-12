@@ -1,5 +1,9 @@
 package Recursion;
 
+// 1. Recursive case - the flow
+// 2. Base case - the stopping condition (below example)
+// 3. Unintentional case - the constraint (minus value or something else)
+
 public class Fibonacci {
     public static void main(String[] args) {
         int fibonacciAnswer = Fibonacci.fibo(4);
